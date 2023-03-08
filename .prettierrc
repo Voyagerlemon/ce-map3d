@@ -1,0 +1,8 @@
+{
+  "semi": true,
+  "trailingComma": "none",
+  "htmlWhitespaceSensitivity": "ignore",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "lf"
+}

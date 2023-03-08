@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 指定模块基础目录
+    "paths": {
+      "@/*": ["src/*"]
+    }, // 指定相对于模块路径别名映射
+    "target": "ES6", // 指定要使用的默认库
+    "module": "commonjs", // 在生成模块代码时指定模块系统
+    "allowSyntheticDefaultImports": true // 允许从没有默认导出的模块进行默认导入，进行类型检查
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"] // 提高IDE性能
+}
